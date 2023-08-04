@@ -10,6 +10,7 @@
 		A22BD6802A7D6A1E001AB319 /* Animate_Alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22BD67F2A7D6A1E001AB319 /* Animate_Alignment.swift */; };
 		A22BD6822A7D6BCE001AB319 /* Animate_GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22BD6812A7D6BCE001AB319 /* Animate_GeometryReader.swift */; };
 		A22BD6842A7D6E23001AB319 /* Animate_Opacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22BD6832A7D6E23001AB319 /* Animate_Opacity.swift */; };
+		A22BD6862A7D6FB3001AB319 /* Animate_RotationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22BD6852A7D6FB3001AB319 /* Animate_RotationEffect.swift */; };
 		A29F85DD2A7D2570002B26E1 /* EssentialAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F85DC2A7D2570002B26E1 /* EssentialAnimationApp.swift */; };
 		A29F85DF2A7D2570002B26E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F85DE2A7D2570002B26E1 /* ContentView.swift */; };
 		A29F85E12A7D2571002B26E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A29F85E02A7D2571002B26E1 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		A22BD67F2A7D6A1E001AB319 /* Animate_Alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_Alignment.swift; sourceTree = "<group>"; };
 		A22BD6812A7D6BCE001AB319 /* Animate_GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_GeometryReader.swift; sourceTree = "<group>"; };
 		A22BD6832A7D6E23001AB319 /* Animate_Opacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_Opacity.swift; sourceTree = "<group>"; };
+		A22BD6852A7D6FB3001AB319 /* Animate_RotationEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_RotationEffect.swift; sourceTree = "<group>"; };
 		A29F85D92A7D2570002B26E1 /* EssentialAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A29F85DC2A7D2570002B26E1 /* EssentialAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAnimationApp.swift; sourceTree = "<group>"; };
 		A29F85DE2A7D2570002B26E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				A22BD67F2A7D6A1E001AB319 /* Animate_Alignment.swift */,
 				A22BD6812A7D6BCE001AB319 /* Animate_GeometryReader.swift */,
 				A22BD6832A7D6E23001AB319 /* Animate_Opacity.swift */,
+				A22BD6852A7D6FB3001AB319 /* Animate_RotationEffect.swift */,
 				A29F85E02A7D2571002B26E1 /* Assets.xcassets */,
 				A29F85E22A7D2571002B26E1 /* Preview Content */,
 			);
@@ -168,6 +171,7 @@
 				A29F85DD2A7D2570002B26E1 /* EssentialAnimationApp.swift in Sources */,
 				A29F85EF2A7D348C002B26E1 /* Animate_Color.swift in Sources */,
 				A22BD6822A7D6BCE001AB319 /* Animate_GeometryReader.swift in Sources */,
+				A22BD6862A7D6FB3001AB319 /* Animate_RotationEffect.swift in Sources */,
 				A29F85EB2A7D259E002B26E1 /* Example_NoAnimation.swift in Sources */,
 				A22BD6802A7D6A1E001AB319 /* Animate_Alignment.swift in Sources */,
 				A22BD6842A7D6E23001AB319 /* Animate_Opacity.swift in Sources */,
