@@ -14,6 +14,7 @@
 		A29F85EB2A7D259E002B26E1 /* Example_NoAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F85EA2A7D259E002B26E1 /* Example_NoAnimation.swift */; };
 		A29F85ED2A7D2810002B26E1 /* Example_WithAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F85EC2A7D2810002B26E1 /* Example_WithAnimation.swift */; };
 		A29F85EF2A7D348C002B26E1 /* Animate_Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F85EE2A7D348C002B26E1 /* Animate_Color.swift */; };
+		A29F85F12A7D36B7002B26E1 /* Animate_HueRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F85F02A7D36B7002B26E1 /* Animate_HueRotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		A29F85EA2A7D259E002B26E1 /* Example_NoAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_NoAnimation.swift; sourceTree = "<group>"; };
 		A29F85EC2A7D2810002B26E1 /* Example_WithAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_WithAnimation.swift; sourceTree = "<group>"; };
 		A29F85EE2A7D348C002B26E1 /* Animate_Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_Color.swift; sourceTree = "<group>"; };
+		A29F85F02A7D36B7002B26E1 /* Animate_HueRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_HueRotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				A29F85EA2A7D259E002B26E1 /* Example_NoAnimation.swift */,
 				A29F85EC2A7D2810002B26E1 /* Example_WithAnimation.swift */,
 				A29F85EE2A7D348C002B26E1 /* Animate_Color.swift */,
+				A29F85F02A7D36B7002B26E1 /* Animate_HueRotation.swift */,
 				A29F85E02A7D2571002B26E1 /* Assets.xcassets */,
 				A29F85E22A7D2571002B26E1 /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A29F85F12A7D36B7002B26E1 /* Animate_HueRotation.swift in Sources */,
 				A29F85DF2A7D2570002B26E1 /* ContentView.swift in Sources */,
 				A29F85ED2A7D2810002B26E1 /* Example_WithAnimation.swift in Sources */,
 				A29F85DD2A7D2570002B26E1 /* EssentialAnimationApp.swift in Sources */,
