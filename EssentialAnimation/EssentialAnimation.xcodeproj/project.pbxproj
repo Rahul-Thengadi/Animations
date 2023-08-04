@@ -15,6 +15,7 @@
 		A29F85ED2A7D2810002B26E1 /* Example_WithAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F85EC2A7D2810002B26E1 /* Example_WithAnimation.swift */; };
 		A29F85EF2A7D348C002B26E1 /* Animate_Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F85EE2A7D348C002B26E1 /* Animate_Color.swift */; };
 		A29F85F12A7D36B7002B26E1 /* Animate_HueRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F85F02A7D36B7002B26E1 /* Animate_HueRotation.swift */; };
+		A29F85F32A7D3B79002B26E1 /* Animate_Offset.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F85F22A7D3B79002B26E1 /* Animate_Offset.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		A29F85EC2A7D2810002B26E1 /* Example_WithAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_WithAnimation.swift; sourceTree = "<group>"; };
 		A29F85EE2A7D348C002B26E1 /* Animate_Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_Color.swift; sourceTree = "<group>"; };
 		A29F85F02A7D36B7002B26E1 /* Animate_HueRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_HueRotation.swift; sourceTree = "<group>"; };
+		A29F85F22A7D3B79002B26E1 /* Animate_Offset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_Offset.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				A29F85EC2A7D2810002B26E1 /* Example_WithAnimation.swift */,
 				A29F85EE2A7D348C002B26E1 /* Animate_Color.swift */,
 				A29F85F02A7D36B7002B26E1 /* Animate_HueRotation.swift */,
+				A29F85F22A7D3B79002B26E1 /* Animate_Offset.swift */,
 				A29F85E02A7D2571002B26E1 /* Assets.xcassets */,
 				A29F85E22A7D2571002B26E1 /* Preview Content */,
 			);
@@ -151,6 +154,7 @@
 			files = (
 				A29F85F12A7D36B7002B26E1 /* Animate_HueRotation.swift in Sources */,
 				A29F85DF2A7D2570002B26E1 /* ContentView.swift in Sources */,
+				A29F85F32A7D3B79002B26E1 /* Animate_Offset.swift in Sources */,
 				A29F85ED2A7D2810002B26E1 /* Example_WithAnimation.swift in Sources */,
 				A29F85DD2A7D2570002B26E1 /* EssentialAnimationApp.swift in Sources */,
 				A29F85EF2A7D348C002B26E1 /* Animate_Color.swift in Sources */,
