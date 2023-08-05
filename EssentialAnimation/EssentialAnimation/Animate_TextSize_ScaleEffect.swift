@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Animate_TextSize: View {
+struct Animate_TextSize_ScaleEffect: View {
     @State private var change = false
 
     var body: some View {
@@ -19,8 +19,9 @@ struct Animate_TextSize: View {
             Spacer()
             
             Text("Hello!")
-                .font(.system(size: change ? 80 : 20)) // Not a good experience
-                .animation(.easeInOut)
+                .font(.system(size: 20))
+                .scaleEffect(change ? 4 : 1) // Not a good experience, text blurred
+                .animation(.easeInOut, value: change)
                 .border(.blue)
             
             Spacer()
@@ -29,8 +30,8 @@ struct Animate_TextSize: View {
     }
 }
 
-struct Animate_TextSize_Previews: PreviewProvider {
+struct Animate_TextSize_ScaleEffect_Previews: PreviewProvider {
     static var previews: some View {
-        Animate_TextSize()
+        Animate_TextSize_ScaleEffect()
     }
 }
