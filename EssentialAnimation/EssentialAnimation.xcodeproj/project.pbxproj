@@ -26,6 +26,7 @@
 		A22BD6A02A7E4CDD001AB319 /* Exercise1_ChangeColorWithForegroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22BD69F2A7E4CDD001AB319 /* Exercise1_ChangeColorWithForegroundColor.swift */; };
 		A22BD6A22A7E4EA9001AB319 /* Exercise1_RotateWithRotationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22BD6A12A7E4EA9001AB319 /* Exercise1_RotateWithRotationEffect.swift */; };
 		A22BD6A42A7E4FA3001AB319 /* Exercise1_MoveShapesWithOffset.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22BD6A32A7E4FA3001AB319 /* Exercise1_MoveShapesWithOffset.swift */; };
+		A22BD6A62A7E50C5001AB319 /* Exercise1_MoveShapesWithOffset_Refactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22BD6A52A7E50C5001AB319 /* Exercise1_MoveShapesWithOffset_Refactor.swift */; };
 		A29F85DD2A7D2570002B26E1 /* EssentialAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F85DC2A7D2570002B26E1 /* EssentialAnimationApp.swift */; };
 		A29F85DF2A7D2570002B26E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F85DE2A7D2570002B26E1 /* ContentView.swift */; };
 		A29F85E12A7D2571002B26E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A29F85E02A7D2571002B26E1 /* Assets.xcassets */; };
@@ -57,6 +58,7 @@
 		A22BD69F2A7E4CDD001AB319 /* Exercise1_ChangeColorWithForegroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise1_ChangeColorWithForegroundColor.swift; sourceTree = "<group>"; };
 		A22BD6A12A7E4EA9001AB319 /* Exercise1_RotateWithRotationEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise1_RotateWithRotationEffect.swift; sourceTree = "<group>"; };
 		A22BD6A32A7E4FA3001AB319 /* Exercise1_MoveShapesWithOffset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise1_MoveShapesWithOffset.swift; sourceTree = "<group>"; };
+		A22BD6A52A7E50C5001AB319 /* Exercise1_MoveShapesWithOffset_Refactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise1_MoveShapesWithOffset_Refactor.swift; sourceTree = "<group>"; };
 		A29F85D92A7D2570002B26E1 /* EssentialAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A29F85DC2A7D2570002B26E1 /* EssentialAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAnimationApp.swift; sourceTree = "<group>"; };
 		A29F85DE2A7D2570002B26E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				A22BD69F2A7E4CDD001AB319 /* Exercise1_ChangeColorWithForegroundColor.swift */,
 				A22BD6A12A7E4EA9001AB319 /* Exercise1_RotateWithRotationEffect.swift */,
 				A22BD6A32A7E4FA3001AB319 /* Exercise1_MoveShapesWithOffset.swift */,
+				A22BD6A52A7E50C5001AB319 /* Exercise1_MoveShapesWithOffset_Refactor.swift */,
 				A29F85E02A7D2571002B26E1 /* Assets.xcassets */,
 				A29F85E22A7D2571002B26E1 /* Preview Content */,
 			);
@@ -219,6 +222,7 @@
 				A29F85DF2A7D2570002B26E1 /* ContentView.swift in Sources */,
 				A29F85F32A7D3B79002B26E1 /* Animate_Offset.swift in Sources */,
 				A22BD6882A7E0F08001AB319 /* Animate_RotationEffect_Anchors.swift in Sources */,
+				A22BD6A62A7E50C5001AB319 /* Exercise1_MoveShapesWithOffset_Refactor.swift in Sources */,
 				A29F85ED2A7D2810002B26E1 /* Example_WithAnimation.swift in Sources */,
 				A22BD69E2A7E4AA2001AB319 /* Execrcise1_FadeInWithOpacity_Refactor.swift in Sources */,
 				A22BD68A2A7E1208001AB319 /* Animate_Size_Frame.swift in Sources */,
