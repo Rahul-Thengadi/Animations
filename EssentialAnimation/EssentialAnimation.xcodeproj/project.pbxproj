@@ -21,6 +21,7 @@
 		A22BD6962A7E1DCD001AB319 /* Animate_TextSize_ScaleEffect_Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22BD6952A7E1DCD001AB319 /* Animate_TextSize_ScaleEffect_Solution.swift */; };
 		A22BD6982A7E1E49001AB319 /* Animate_Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22BD6972A7E1E49001AB319 /* Animate_Trim.swift */; };
 		A22BD69A2A7E45C2001AB319 /* Exercise1_TheSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22BD6992A7E45C2001AB319 /* Exercise1_TheSetup.swift */; };
+		A22BD69C2A7E4999001AB319 /* Exercise1_FadeInWithOpacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22BD69B2A7E4999001AB319 /* Exercise1_FadeInWithOpacity.swift */; };
 		A29F85DD2A7D2570002B26E1 /* EssentialAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F85DC2A7D2570002B26E1 /* EssentialAnimationApp.swift */; };
 		A29F85DF2A7D2570002B26E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29F85DE2A7D2570002B26E1 /* ContentView.swift */; };
 		A29F85E12A7D2571002B26E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A29F85E02A7D2571002B26E1 /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		A22BD6952A7E1DCD001AB319 /* Animate_TextSize_ScaleEffect_Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_TextSize_ScaleEffect_Solution.swift; sourceTree = "<group>"; };
 		A22BD6972A7E1E49001AB319 /* Animate_Trim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_Trim.swift; sourceTree = "<group>"; };
 		A22BD6992A7E45C2001AB319 /* Exercise1_TheSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise1_TheSetup.swift; sourceTree = "<group>"; };
+		A22BD69B2A7E4999001AB319 /* Exercise1_FadeInWithOpacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise1_FadeInWithOpacity.swift; sourceTree = "<group>"; };
 		A29F85D92A7D2570002B26E1 /* EssentialAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A29F85DC2A7D2570002B26E1 /* EssentialAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAnimationApp.swift; sourceTree = "<group>"; };
 		A29F85DE2A7D2570002B26E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				A22BD6952A7E1DCD001AB319 /* Animate_TextSize_ScaleEffect_Solution.swift */,
 				A22BD6972A7E1E49001AB319 /* Animate_Trim.swift */,
 				A22BD6992A7E45C2001AB319 /* Exercise1_TheSetup.swift */,
+				A22BD69B2A7E4999001AB319 /* Exercise1_FadeInWithOpacity.swift */,
 				A29F85E02A7D2571002B26E1 /* Assets.xcassets */,
 				A29F85E22A7D2571002B26E1 /* Preview Content */,
 			);
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A22BD69C2A7E4999001AB319 /* Exercise1_FadeInWithOpacity.swift in Sources */,
 				A22BD68E2A7E159B001AB319 /* Animate_ScaleEffect_Anchors.swift in Sources */,
 				A22BD6962A7E1DCD001AB319 /* Animate_TextSize_ScaleEffect_Solution.swift in Sources */,
 				A29F85F12A7D36B7002B26E1 /* Animate_HueRotation.swift in Sources */,
