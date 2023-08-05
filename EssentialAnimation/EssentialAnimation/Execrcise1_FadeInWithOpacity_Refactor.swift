@@ -1,5 +1,5 @@
 //
-//  Exercise1_FadeInWithOpacity.swift
+//  Execrcise1_FadeInWithOpacity_Refactor.swift
 //  EssentialAnimation
 //
 //  Created by rahul thengadi on 05/08/23.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FadeInWithOpacity: View {
+struct Execrcise1_FadeInWithOpacity_Refactor: View {
     @State private var change = false
 
     var body: some View {
@@ -19,40 +19,35 @@ struct FadeInWithOpacity: View {
                 HStack(alignment: .bottom, spacing: 1) {
                     Rectangle()
                         .frame(width: 70, height: 35)
-                        .opacity(change ? 1 : 0) // Transparent until change occurs
-                        .animation(.default, value: change)
                     Rectangle()
                         .frame(width: 35, height: 70)
-                        .opacity(change ? 1 : 0) // Transparent until change occurs
-                        .animation(.default, value: change)
                 }.offset(x: -18) // Move left
                 
                 HStack(alignment: .top, spacing: 1) {
                     Rectangle()
                         .frame(width: 36, height: 72)
-                        .opacity(change ? 1 : 0) // Transparent until change occurs
-                        .animation(.default, value: change)
                     Rectangle()
                         .frame(width: 72, height: 36)
-                        .opacity(change ? 1 : 0) // Transparent until change occurs
-                        .animation(.default, value: change)
                 }
                 .offset(x: 18) // Move right
             }
             .foregroundColor(.red)
+            .opacity(change ? 1 : 0) // Transparent until change occurs
+            .animation(.default, value: change)
             
             Spacer()
             
             Button("Change") {
                 change.toggle()  // Nothing will happen yet.
             }
+            .padding(.bottom)
         }
         .font(.title)
     }
 }
 
-struct FadeInWithOpacity_Previews: PreviewProvider {
+struct Execrcise1_FadeInWithOpacity_Refactor_Previews: PreviewProvider {
     static var previews: some View {
-        FadeInWithOpacity()
+        Execrcise1_FadeInWithOpacity_Refactor()
     }
 }
